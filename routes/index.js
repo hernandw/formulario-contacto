@@ -4,9 +4,9 @@ const principalController = require('../controllers')
 
 
 
-router.get('/contact', principalController.contact);
+router.get('/', principalController.contact);
 
-router.post('/contact', principalController.contactNodeMailer);
+router.post('/', principalController.contactNodeMailer);
 
 router.get('/success', )
 
