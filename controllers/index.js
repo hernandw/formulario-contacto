@@ -39,7 +39,7 @@ exports.contactNodeMailer = (req, res) => {
       res.redirect("/");
     } else {
      
-      res.send('<h4 class="exito">Mensaje enviado correctamente</h4>')
+      res.send('<h4 id="exito">Mensaje enviado correctamente</h4>')
     }
   });
 };
