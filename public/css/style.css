@@ -1056,3 +1056,8 @@ section {
 .exito {
   color: green;
 }
+
+form {
+  flex-wrap: wrap;
+  width: 98%;
+}
